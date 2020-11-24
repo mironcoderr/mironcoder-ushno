@@ -1,0 +1,33 @@
+
+
+
+/*=====================================
+            ALL ICON STYLE
+======================================*/
+.icon {
+    i {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+        text-shadow: var(icon-tshadow);
+        box-shadow: var(--icon-bshadow);
+        @include cursor__transition;
+    }
+}
+
+.icon-inline {
+    i {
+        color: var(--white);
+        background: var(--primary-gdnt);
+
+        &:hover {
+            color: var(--white);
+            transform: translateY(-3px);
+            background: var(--hover-gdnt);
+            box-shadow: var(--icon-hover-bshadow);
+        }
+    }
+}
