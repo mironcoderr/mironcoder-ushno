@@ -63,19 +63,23 @@
 }
 
 .show-time {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 100%;
     text-align: center;
-    padding-top: 35px;
+    transform: translate(-50%, -50%);
 
     p {
         color: var(--white);
         font-size: 20px;
         margin-bottom: 7px;
-        text-shadow: var(--show-tshadow);
+        font-family: var(--sfamily);
     }
     
     h4 {
         color: var(--white);
-        text-shadow: var(--show-tshadow);
+        font-weight: var(--mweight);
     }
 }
 

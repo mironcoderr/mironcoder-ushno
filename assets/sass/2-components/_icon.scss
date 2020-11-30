@@ -12,8 +12,8 @@
         line-height: 50px;
         text-align: center;
         border-radius: 50%;
-        text-shadow: var(icon-tshadow);
-        box-shadow: var(--icon-bshadow);
+        text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.15);
         @include cursor__transition;
     }
 }
@@ -27,7 +27,7 @@
             color: var(--white);
             transform: translateY(-3px);
             background: var(--hover-gdnt);
-            box-shadow: var(--icon-hover-bshadow);
+            box-shadow: 0px 5px 15px 0px rgba(72, 69, 90, 0.3);
         }
     }
 }

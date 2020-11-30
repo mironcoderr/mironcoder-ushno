@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--=====================================
+                    META-TAG PART START
+        =======================================-->
+        <!-- REQUIRE META -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Peoples Radio gallery</title>
-        <!--=========================================
-                     CSS LINK PART START
-        ===========================================-->
-        <link rel="icon" href="images/logo-icon.png">
-        <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="css/slick.css">
-        <link rel="stylesheet" href="css/venobox.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!--=========================================
-                     CSS LINK PART END
-        ===========================================-->
+
+        <!-- AUTHOR META -->
+        <meta name="author-name" content="Mironcoder">
+        <meta name="author-email" content="mironcoder@gmail.com">
+        <meta name="author-profile" content="https://themeforest.net/user/mironcoder">
+
+        <!-- TEMPLATE META -->
+        <meta name="template-name" content="Ushno">
+        <meta name="template-type" content="FM Radio Station">
+        <meta name="template-title" content="Ushno - FM Radio Station Bootstrap HTML Template">
+        <meta name="keywords" content="ushno, fm, bootstrap, html, template, mp3, player, radio station, responsive, schedule, shoutcast, online radio station template, radio station html template, radio station website template, mp3 player">
+        <!--=====================================
+                    META-TAG PART END
+        =======================================-->
+
+        <!-- FOR WEBPAGE TITLE -->
+        <title>Ushno - Gallery</title>
+
+        <!--=====================================
+                    CSS LINK PART START
+        =======================================-->
+        <!-- FOR FAVICON -->
+        <link rel="icon" href="../assets/img/favicon.png">
+
+        <!-- FOR FLATICON -->
+        <link rel="stylesheet" href="../assets/font/flaticon/flaticon.css">
+
+        <!-- FOR FONT AWESOME -->
+        <link rel="stylesheet" href="../assets/css/vendor/fontawesome.css">
+
+        <!-- FOR BOOTSTRAP -->
+        <link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css">
+
+        <!-- FOR COMMON STYLE -->
+        <link rel="stylesheet" href="../assets/css/custom/main.css">
+
+        <!-- FOR INDEX PAGE -->
+        <link rel="stylesheet" href="../assets/css/custom/gallery.css">
+        <!--=====================================
+                    CSS LINK PART END
+        =======================================-->
     </head>
+
     <body>
-       <!--=========================================
-                    PRELOADER PART START
-        ===========================================-->
-        <div class="preloader">
-            <div class="pre-img">
-                <img src="images/brand-logo.png" alt="brand-logo">
-            </div>
-        </div>
-        <!--=========================================
-                    PRELOADER PART END
-        ===========================================-->
-        
-        
         <!--=========================================
                    BACK2TOP BUTTON PART START
         ===========================================-->
-        <div class="back2top">
+        <div class="back2top-btn">
             <a href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
         </div>
         <!--=========================================
@@ -47,26 +66,20 @@
                        HEADER PART START
         ===========================================-->
         <header class="header-part">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="header-content">
-                            <a href="#"><img src="images/brand-logo.png" alt="brand-logo"></a>
-                            <div class="header-parent">
-                                <div class="header-child">
-                                    <i class="fas fa-phone"></i>
-                                    <ul>
-                                        <li>phone</li>
-                                        <li>+88018XXXXXXXX</li>
-                                    </ul>
-                                </div>
-                                <div class="header-child">
-                                    <i class="fas fa-envelope"></i>
-                                    <ul>
-                                        <li>email</li>
-                                        <li>info@peoplesradio.com</li>
-                                    </ul>
-                                </div>
+            <div class="header-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a class="header-logo" href="#">
+                                <img src="../assets/img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="header-btn">
+                                <a class="btn btn-outline" href="../singles/sponsor.html">
+                                    <i class="fas fa-hands-helping"></i>
+                                    <span>Become a Sponsor</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -79,46 +92,82 @@
         
         
         <!--=========================================
-                       MENU PART START
+                       NAVBAR PART START
         ===========================================-->
-        <nav class="navbar navbar-expand-lg nav-head">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="images/brand-logo.png" alt="brand-logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
+        <nav class="navbar-part">
+            <div class="navbar-bg">
+                <div class="container">
+                    <div class="navbar-content">
+                        <a class="navbar-logo" href="#"><img src="../assets/img/logo.png" alt="logo"></a>
+                        <button class="navbar-toggle" type="button"><i class="fas fa-bars"></i></button>
 
-                <div class="collapse navbar-collapse nav-respons" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                show schedule
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="navbar-overlay">
+                            <div class="navbar-slide">
+                                <div class="slide-head">
+                                    <a href="#"><img src="../assets/img/logo.png" alt="logo"></a>
+                                    <button class="cencel"><i class="fas fa-times"></i></button>
+                                </div>
+    
+                                <ul class="navbar-list">
+                                    <li class="navbar-item">
+                                        <a class="navbar-link" href="../home-1.html">
+                                            <span><i class="fas fa-headphones-alt"></i>Home</span>
+                                        </a>
+                                    </li>
+                                    <li class="navbar-item">
+                                        <a class="navbar-link" href="../singles/about.html">
+                                            <span><i class="fas fa-headphones-alt"></i>About us</span>
+                                        </a>
+                                    </li>
+                                    <li class="navbar-item">
+                                        <a class="navbar-link" href="../singles/show.html">
+                                            <span><i class="fas fa-headphones-alt"></i>Show Schedule</span>
+                                        </a>
+                                    </li>
+                                    <li class="navbar-player">
+                                        <div class="player">
+                                            <button class="player-btn" id="play-pause-button">
+                                                <i class="fas fa-play"></i>
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="navbar-item active navbar-dropdown">
+                                        <a class="navbar-link" href="#">
+                                            <span><i class="fas fa-headphones-alt"></i>pages</span>
+                                            <small class="fas fa-chevron-down"></small>
+                                        </a>
+                                        <ul class="dropdown-list">
+                                            <li><a class="dropdown-link" href="../singles/team.html">Team Members</a></li>
+                                            <li><a class="dropdown-link" href="../singles/video.html">Videos</a></li>
+                                            <li><a class="dropdown-link active" href="../singles/gallery.html">Gallery</a></li>
+                                            <li><a class="dropdown-link" href="../singles/sponsor.html">Become a Sponsor</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-item navbar-dropdown">
+                                        <a class="navbar-link" href="#">
+                                            <span><i class="fas fa-headphones-alt"></i>blogs</span>
+                                            <small class="fas fa-chevron-down"></small>
+                                        </a>
+                                        <ul class="dropdown-list">
+                                            <li><a class="dropdown-link" href="../singles/blog-list.html">Blog list</a></li>
+                                            <li><a class="dropdown-link" href="../singles/blog-details.html">blog details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-item">
+                                        <a class="navbar-link" href="../singles/contact.html">
+                                            <span><i class="fas fa-headphones-alt"></i>Contact us</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <div class="navbar-btn">
+                                    <a class="btn btn-outline" href="../singles/sponsor.html">
+                                        <i class="fas fa-hands-helping"></i>
+                                        <span>Become a Sponsor</span>
+                                    </a>
+                                </div>
                             </div>
-                        </li>      
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">peoples team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">our gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contact us</a>
-                        </li>
-                    </ul>
-                    <div class="sponsor">
-                        <a href="sponsor.html">become a sponsor</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,211 +175,190 @@
         <!--=========================================
                        MENU PART END
         ===========================================-->
+
+
+        <!--=========================================
+                       BOTTOM PLAYER START
+        ===========================================-->
+        <div class="bottom-player">
+            <div class="player">
+                <button class="player-btn" id="play-pause-button2">
+                    <i class="fas fa-play"></i>
+                </button>
+            </div>
+        </div>
+        <!--=========================================
+                       BOTTOM PLAYER END
+        ===========================================-->
         
         
         <!--=========================================
-                       BANNER PART START
+                    SINGLE BANNER PART START
         ===========================================-->
-        <section class="blog-br-bg">
-            <div class="blog-br-oly">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="blog-br-cn">
-                                <h1>gallery image</h1>
-                                <ul>
-                                    <li><a href="./index.html">home page</a></li>
-                                    <li><i class="fas fa-exchange-alt"></i></li>
-                                    <li><a href="./gallery.html">gallery page</a></li>
-                                </ul>
-                            </div>
+        <section class="single-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="single-content">
+                            <h2>Image Gallery</h2>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../home-1.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                            </ol>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--=========================================
-                       BANNER PART END
+                    SINGLE BANNER PART END
         ===========================================-->
-        
-        
+
+
         <!--=========================================
                      GALLERY PART START
         ===========================================-->
-        <section class="inner-gallery-part">
+        <section class="gallery-part">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="big-img">
-                            <img src="images/gallery-1.jpg" alt="gallery-1">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
-                        </div>
-                        <div class="small-img">
-                            <img src="images/gallery-2.jpg" alt="gallery-2">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-2.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img">
+                            <img src="../assets/img/gallery-8.jpg" alt="gallery-8">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="small-img">
-                            <img src="images/gallery-5.jpg" alt="gallery-5">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-5.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
-                        </div>
-                        <div class="big-img">
-                            <img src="images/gallery-3.jpg" alt="gallery-3">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-3.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img gallery-gape">
+                            <img src="../assets/img/gallery-9.jpg" alt="gallery-9">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="big-img">
-                            <img src="images/gallery-4.jpg" alt="gallery-4">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-4.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
-                        </div>
-                        <div class="small-img">
-                            <img src="images/gallery-6.jpg" alt="gallery-6">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-6.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img">
+                            <img src="../assets/img/gallery-10.jpg" alt="gallery-10">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="big-img">
-                            <img src="images/gallery-1.jpg" alt="gallery-1">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
-                        </div>
-                        <div class="small-img">
-                            <img src="images/gallery-2.jpg" alt="gallery-2">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-2.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img">
+                            <img src="../assets/img/gallery-11.jpg" alt="gallery-11">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="small-img">
-                            <img src="images/gallery-5.jpg" alt="gallery-5">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-5.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
-                        </div>
-                        <div class="big-img">
-                            <img src="images/gallery-3.jpg" alt="gallery-3">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-3.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img gallery-gape">
+                            <img src="../assets/img/gallery-12.jpg" alt="gallery-12">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="big-img">
-                            <img src="images/gallery-4.jpg" alt="gallery-4">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-4.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
-                        </div>
-                        <div class="small-img">
-                            <img src="images/gallery-6.jpg" alt="gallery-6">
-                            <div class="img-overlay">
-                                <a class="venobox" data-gall="gallery01" href="images/gallery-6.jpg"><i class="fas fa-arrows-alt"></i></a>
-                            </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img">
+                            <img src="../assets/img/gallery-13.jpg" alt="gallery-13">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-12">
-                        <div aria-label="Page navigation example">
-                            <ul class="pagination blog-pagi">
-                                <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a></li>
-                            </ul>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img">
+                            <img src="../assets/img/gallery-14.jpg" alt="gallery-14">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img gallery-gape">
+                            <img src="../assets/img/gallery-15.jpg" alt="gallery-15">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="gallery-img">
+                            <img src="../assets/img/gallery-16.jpg" alt="gallery-16">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="gallery-btn">
+                            <a class="btn btn-outline" href="#">
+                                <i class="fas fa-eye"></i>
+                                <span>show more</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--=========================================
-                      GALLERY PART END
+                     GALLERY PART END
         ===========================================-->
         
         
         <!--=========================================
                       FOOTER PART START
         ===========================================-->
-        <section class="footer-part">
+        <footer class="footer-part">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-logo">
-                            <a href="#"><img src="images/brand-logo.png" alt="brand-logo"></a>
+                            <a href="#"><img src="../assets/img/logo.png" alt="logo"></a>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="icon icon-inline" href="#"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
+                        <form class="news-form">
+                            <input type="text" placeholder="Enter email for Newsletter">
+                            <button class="btn btn-inline">
+                                <i class="fas fa-envelope"></i>
+                                <span>Subscribe</span>
+                            </button>
+                        </form>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="footer-address">
-                            <div class="footer-heading">
-                                <h3>contact us</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Qui voluptatibus neque optio impedit odio repudiandae odit esse hic quas.</p>
-                            </div>
-                            <ul>
-                                <li>
-                                    <i class="fas fa-map-marked-alt"></i>
-                                    <p>1000 dilkusha <span>motijheel, dhaka.</span></p>
-                                </li>
-                                <li>
-                                    <i class="fas fa-envelope-open-text"></i>
-                                    <p>info@gmail.com <span>support@gmail.com</span></p>
-                                </li>
-                                <li>
-                                    <i class="fas fa-phone"></i>
-                                    <p>+88018XXXXXXXX <span>+88018XXXXXXXX</span></p>
-                                </li>
-                            </ul>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-heading">
+                            <h3>contact us</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Qui voluptatibus neque optio impedit odio repudiandae odit esse hic quas.</p>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="footer-link">
-                            <div class="footer-heading">
-                                <h3>important links</h3>
-                            </div>
-                            <ul>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> about peoples radio</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> career opportunity of peoples</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> become a sponsor</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> about peoples radio</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> about peoples radio</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                <div class="col-lg-4">
-                    <div class="download-part">
-                        <h3>download the app</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ea fuga necessitatibus repellat mollitia consequatur cupiditate provident quia tempore, rem voluptatibus officia delectus.</p>
-                        <ul>
-                            <li>available on -</li>
-                            <li><a href="#"><img src="images/google.png" alt="google"></a></li>
-                            <li><a href="#"><img src="images/app.png" alt="app"></a></li>
+                        <ul class="footer-address">
+                            <li>
+                                <i class="fas fa-map-marked-alt"></i>
+                                <p>1000 New York, USA.</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-open-text"></i>
+                                <p>support@ushno.com</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <p>+1 866-648-4023</p>
+                            </li>
                         </ul>
                     </div>
-                </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-heading">
+                            <h3>important links</h3>
+                        </div>
+                        <ul class="footer-link">
+                            <li><a href="#"><i class="fas fa-angle-right"></i> about ushno radio</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> career opportunity of ushno</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> become a sponsor</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> career opportunity</a></li>
+                            <li><a href="#"><i class="fas fa-angle-right"></i> about ushno radio</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-heading">
+                            <h3>download the app</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ea fuga necessitatibus repellat mollitia consequatur cupiditate provident quia tempore, rem voluptatibus officia delectus.</p>
+                        </div>
+                        <div class="download-part">
+                            <ul>
+                                <li><h5>available on -</h5></li>
+                                <li><a href="#"><img src="../assets/img/google.png" alt="google"></a></li>
+                                <li><a href="#"><img src="../assets/img/app.png" alt="app"></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </footer>
         <!--=========================================
                       FOOTER PART END
         ===========================================-->
@@ -342,9 +370,9 @@
         <section class="copy-part">
             <div class="container">
                 <ul>
-                    <li>&copy; copyright 2020</li>
-                    <li>all rights reserved by <a href="#">peoples radio</a></li>
-                    <li>developed by <a href="#">icon infotech limited</a></li>
+                    <li><h6>&copy; Copyright - <span>2020</span></h6></li>
+                    <li><h6>All rights reserved by - <span>Ushno</span></h6></li>
+                    <li><h6>Developed by - <a target="_blank" href="https://themeforest.net/user/mironcoder">Mironcoder</a></h6></li>
                 </ul>
             </div>
         </section>
@@ -356,12 +384,16 @@
         <!--=========================================
                      JS LINK PART START
         ===========================================-->
-        <script src="js/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/venobox.min.js"></script>
-        <script src="js/main.js"></script>
+        <!-- FOR BOOTSTRAP -->
+        <script src="../assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="../assets/js/vendor/popper.min.js"></script>
+        <script src="../assets/js/vendor/bootstrap.min.js"></script>
+
+        <!-- FOR AUDIO PLAYER -->
+        <script src="../assets/js/custom/player.js"></script>
+
+        <!-- FOR INTERACTION -->
+        <script src="../assets/js/custom/main.js"></script>
         <!--=========================================
                      JS LINK PART END
         ===========================================-->

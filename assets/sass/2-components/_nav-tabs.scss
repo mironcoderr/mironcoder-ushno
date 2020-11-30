@@ -26,7 +26,7 @@
             letter-spacing: 0.5px;
             color: var(--text);
             border-bottom: 3px solid transparent;
-            text-shadow: var(--icon-tshadow);
+            text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
 
             &:hover {
                 border-color: transparent;
@@ -36,7 +36,7 @@
         .active {
             color: var(--white) !important;
             background: var(--primary-gdnt);
-            border-color: var(--primary-clr) !important;
+            border-color: var(--primary) !important;
         }
     }
 }
