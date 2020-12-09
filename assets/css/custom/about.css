@@ -196,7 +196,7 @@
         SINGLE BANNER PART STYLE
 ======================================*/
 .single-banner {
-  background: url(../../../assets/img/single-banner.jpg);
+  background: url(../../img/single-banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -355,7 +355,7 @@
             COUNTER PART STYLE
 ======================================*/
 .counter-part {
-  background: url(../../../assets/img/counter-bg.jpg);
+  background: url(../../img/counter-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

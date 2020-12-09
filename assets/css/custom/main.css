@@ -324,7 +324,7 @@ h6 {
          PLAYER COMPONENTS STYLE
 =======================================*/
 .player {
-  background: url(../../../assets/img/player-bg.jpg);
+  background: url(../../img/player-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -550,7 +550,7 @@ h6 {
             HEADER PART STYLE
 ======================================*/
 .header-bg {
-  background: url(../../../assets/img/assets-bg.png);
+  background: url(../..//img/assets-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -588,7 +588,7 @@ h6 {
            NAVBAR PART STYLE
 =======================================*/
 .navbar-bg {
-  background: url(../../../assets/img/assets-bg.png);
+  background: url(../..//img/assets-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
